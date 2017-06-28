@@ -12,3 +12,32 @@ gradle-app.setting
 
 # # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
 # gradle/wrapper/gradle-wrapper.properties
+.idea/workspace.xml
+
+# Java class files
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Intellij project files
+*.iml
+*.ipr
+*.iws
+.idea/
+/out/
+
+# Gradle:
+.gradletasknamecache
+.gradle/
+build/
+bin/
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
